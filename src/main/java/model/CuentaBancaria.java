@@ -1,18 +1,18 @@
 package model;
 
-public class Banco {
+public class CuentaBancaria {
 
     private String idCuenta,tipoCuenta;
     private int saldoDisponible;
 
-    public Banco(){
+    public CuentaBancaria(){
         this.idCuenta="";
         this.saldoDisponible=0;
         this.tipoCuenta="";
 
     }
 
-    public Banco(String idCuenta, String tipoCuenta, int saldoDisponible) {
+    public CuentaBancaria(String idCuenta, String tipoCuenta, int saldoDisponible) {
         this.idCuenta = idCuenta;
         this.tipoCuenta = tipoCuenta;
         this.saldoDisponible = saldoDisponible;
